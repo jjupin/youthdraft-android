@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">YouthDraft</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Assess Activity</string>
+    <string name="login_with_password">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="create_account">Create Account</string>
+    <string name="composite">Composite Score: </string>
+    <string name="rankDis">Rank: </string>
+    <string name="rankDraft">Draftable: </string>
+    <string name="recalc">Recalc Rankings</string>
+    <string name="weight_info_button">Weighting</string>
+    <string name="player_name">Name: </string>
+    <string name="height">Height: </string>
+    <string name="empty">Assess some players to see rankings.</string>
+    <string name="weight">Weight: </string>
+    <string name="overallsize">Overall size: </string>
+    <string name="acceleration">Acceleration: </string>
+    <string name="speed">Overall speed: </string>
+    <string name="hitting">Hitting: </string>
+    <string name="player_activity">Assess by Player</string>
+    <string name="activity_activity">Assess by Activity</string>
+    <string name="hittingpow">Hitting w/Power: </string>
+    <string name="fielding">Fielding: </string>
+    <string name="catching">Catching: </string>
+    <string name="throwing">Throwing: </string>
+    <string name="throwinga">Throwing Accuracy: </string>
+    <string name="batting">Batting: </string>
+    <string name="infield">Infield: </string>
+    <string name="outfield">Outfield: </string>
+    <string name="base">Base Running: </string>
+    <string name="arm">Arm Strength: </string>
+    <string name="toughness">Toughness: </string>
+    <string name="aware">Awareness: </string>
+    <string name="focus">Focus: </string>
+    <string name="datetime">Date/Time:</string>
+    <string name="exp">Experience: </string>
+    <string name="childrens_privacy">Children\'s Privacy</string>
+    <string name="draft">Draftable: </string>
+    <string name="player_note">Notes: </string>
+    <string name="weight_info">Adjust the weigh sliders for each attribute to allow each attribute to have a higher or lower effect on player rankings.  This adjustment allows you to put your own flavor on ranking your draft order.</string>
+
+    <string name="search_hint">Player name</string>
+
+    <!-- side menu items - and used elsewhere as well -->
+    <string name="dugout_reschedule">Dugout (Reschedule)</string>
+    <string name="bullpen_assessed">Bullpen (Assessed)</string>
+    <string name="my_team">My Team</string>
+    <string name="drafted">Drafted</string>
+    <string name="players">Players</string>
+    <string name="ranking">Ranking</string>
+    <string name="assess_player">Assess Single Player</string>
+    <string name="assess_activity">Assess by Activity</string>
+    <string name="weighting">Weighting</string>
+
+    <string name="reschedule">Reschedule</string>
+    <string name="assessed">Assessed</string>
+    <string name="skill_assessment">Skill Assessment</string>
+
+    <string-array name="filter_assessments_array">
+        <item>Hitting Mechanics</item>
+        <item>Bat Speed</item>
+        <item>Infield Mechanics</item>
+        <item>Outfield Mechanics</item>
+        <item>Throwing Mechanics</item>
+        <item>Fielding</item>
+        <item>Speed</item>
+        <item>Base Running</item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>

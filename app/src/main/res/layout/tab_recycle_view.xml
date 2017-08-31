@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?><!--- used by recent contacts and address book -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pale_purple"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/pale_purple"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/pale_purple"
+                    android:orientation="horizontal">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/sorted_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="16dp"
+                        android:background="@color/pale_purple"
+                        android:gravity="center"
+                        android:text="Sorted: "
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/filtered_by_label"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="85dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@drawable/dropdown_arrow"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Alphabetically (Last Name)"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="14sp"
+                        app:typeface="openSansSemiBold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/pale_purple"
+                    android:orientation="horizontal">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Select Skill: "
+                        android:textColor="@color/gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/popupmenu_selection"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="85dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@drawable/dropdown_arrow"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Hitting Mechanics"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold" />
+                    <!--
+                    <Spinner
+                        android:id="@+id/seekbar_select"
+                        android:layout_width="225dp"
+                        android:layout_height="match_parent"
+                        android:entries="@array/filter_assessments_array"
+                        android:prompt="@string/skill_assessment"
+                        android:background="@android:drawable/btn_dropdown"
+                        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+                        -->
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pale_purple"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- needed for FlexibleAdapter sticky headers, included in library -->
+    <!-- recent calls -->
+    <include layout="@layout/sticky_header_layout" />
+
+    <!-- needed for address book -->
+    <FrameLayout
+        android:id="@+id/sticky_header_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/calendar_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pale_gray"
+        android:visibility="gone">
+
+        <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+            android:id="@+id/schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:text="Select Schedule Time"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="18sp"
+            app:typeface="openSansSemiBold" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/schedule_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/schedule_title"
+            android:background="@android:color/white"
+            android:visibility="visible">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/lighter_gray">
+
+                <LinearLayout
+                    android:id="@+id/timeslotLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/all_players"
+                        android:layout_width="80dp"
+                        android:layout_height="68dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/pale_green"
+                        android:text="\nALL \n PLAYERS"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        app:typeface="openSansSemiBold" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+            android:id="@+id/cancel_selection"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/schedule_scroller"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            app:typeface="openSansSemiBold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/cancel_selection"
+            android:background="@color/lighter_gray"/>
+    </RelativeLayout>
+
+</RelativeLayout>

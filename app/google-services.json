@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "613466971238",
+    "firebase_url": "https://blistering-fire-5846.firebaseio.com",
+    "project_id": "blistering-fire-5846",
+    "storage_bucket": "blistering-fire-5846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613466971238:android:da693926c230f1f8",
+        "android_client_info": {
+          "package_name": "com.youthdraft.youthdraftcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613466971238-icucf2vcqd206oo2ki4lkb6ifrmn52l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPp6vyNezIazP_8RzOOgOLaRlDc7kB4ts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

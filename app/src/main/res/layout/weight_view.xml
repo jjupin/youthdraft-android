@@ -1,0 +1,476 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+
+    android:orientation="vertical">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/ibInfoWeight"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_info_outline_black"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvHeiWV"
+                    android:text="Height"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="100%"
+                    android:id="@+id/tvHeightWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvHeiWV" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvHeightWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sHeightWeight"
+                android:paddingTop="5dp"
+                android:max="100"
+                android:progress="50"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl2"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvWeiWV"
+                    android:text="Weight"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="100%"
+                    android:id="@+id/tvWeightWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvWeiWV" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvWeightWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sWeightWeight"
+                android:paddingTop="5dp"
+                android:max="100"
+                android:progress="50"
+                android:layout_margin="5dp"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl3"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hitting"
+                    android:id="@+id/tvHittingWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvHittingWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvHittingWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvHittingWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sHittingWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Bat Speed"
+                    android:id="@+id/tvBatSpeedWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvBatSpeedWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvBatSpeedWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvBatSpeedWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sBatSpeedWeightWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Infield Mechanics"
+                    android:id="@+id/tvInfieldWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvInfieldWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvInfieldWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvInfieldWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sInfieldWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl6"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Outfield Mechanics"
+                    android:id="@+id/tvOutfieldWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvOutfieldWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvOutfieldWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvOutfieldWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sOutfieldWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl7"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Throwing Mechanics"
+                    android:id="@+id/tvThrowingWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvThrowingWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvThrowingWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvThrowingWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sThrowingWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Arm Strength"
+                    android:id="@+id/tvArmStrengthWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvArmStrengthWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvArmStrengthWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvArmStrengthWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sArmStrengthWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl9"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/tvSpeed"
+                    android:text="Speed"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvSpeedWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvSpeed"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvSpeedWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sSpeedWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/rl10"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="50%"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Base Running"
+                    android:id="@+id/tvBaseRunningWV"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="100%"
+                    android:id="@+id/tvBaseRunningWeightVal"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tvBaseRunningWV"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tvBaseRunningWeightVal"
+                    android:text="150%"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sBaseRunningWeight"
+                android:max="100"
+                android:progress="50"
+                android:paddingTop="5dp"
+                android:layout_margin="5dp"/>
+            <!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/ic_cached_black"
+                    android:id="@+id/bRecalc"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/recalc"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

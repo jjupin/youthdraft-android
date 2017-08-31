@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_3d0b992ebccd8c3fe31db297af7d07cb41deb797/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d4ef0523fd71431513d636903fd346ccdc6350fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/it.sephiroth.android.library.targettooltip/target-tooltip-library/1.3.15/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="61dd52ca3f0bc8793bb399fda0075c41002bb831">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/it.sephiroth.android.library.targettooltip-target-tooltip-library-1.3.15_8f6a1e4c81479f6d010b920fe3bed09c65f8359a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_76d5abf50f55c9054a2a77a20d1712c80a21671f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_40602374c9dc0270c92e9bfe4349d728e49f14e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_da8f2418785a59552406d97c27507dfe754bcd44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/eu.davidea/flexible-adapter/5.0.0-b8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a24486e576e5ef9728146bdb5aa0912ce041f130">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/eu.davidea-flexible-adapter-5.0.0-b8_cd252a2695f601aa3fa5fb1b0c504f90dfd27220/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_c913a96219bdc3771bd5948e788773a23f9da5b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_e4d3da807611b311bd0eda08c80d22ef980af689/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_6f5a253c0cd1446dcfc8a1f73009aba181aa3091/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_97cd133ed911c03314b5fecf48335cdc3866acc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_389b4d2f165ca67d113ec41df3e396706c4c8f9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_a0057f464ffbae64b930d420220821b4735eaab2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e08478eed5d6997842a7f003225457a736cdce0">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e855778dca836744ec16c5eb6f8623f18c5d8ec6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_617851418e8f534388a593a3a30a8815ede0ab74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_f796279a0532a1c1f28940cc4cb11089dc5c8614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/hugo-annotations-1.2.1_a936f8588b6777ddc5a229fb935f682866d9535e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_06a7d92599e90ad489693a15978bda8bfad1cde5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_696319926d1031e7dfe32ed5a5275a8b98a372f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_103a4c709a6cdcbefd7d9855d0bb8548bea2bd7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_2f56cd79981953b959d70ec05d9fefb527c79e17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.2.4/7abd1ecef320da6a7679b137083151401fe8bf43/MPAndroidChart-v2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7abd1ecef320da6a7679b137083151401fe8bf43">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v2.2.4_a30ee5ca5252eda7c536df7ab75a256f6193005d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c09a467ed0ce2852dc6d745f46aa5d8081d4154c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.0/c0af904657634f7ab9cc21e75d80250570033321/firebase-client-jvm-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c0af904657634f7ab9cc21e75d80250570033321">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.0_50609264a01aaf6a66716655ede6f60aef92b17b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_c13fd5cc9333167387ee3d36ff32898782379e8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b7315503850a5ac8842d9d4630bd5265315c8292/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.appyvet/materialrangebar/1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8eb551963af29c7faacd640a4e74a8e9e698ab90">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.appyvet-materialrangebar-1.3_f318ca423e1f2211b7bcbeeb2ba805e2bb53aa25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_84d43a2287dbf5fd20ee97634dceac85ef03baf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c9ad4a0850ab676c5c64461a05ca524cdfff59f1">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/json-simple-1.1.1_c0e3f56ef267f72a9c4d5fd65e1561567c885f05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/stetho-1.3.1_a85efd1fe5867fdf26ecda6982de9dfec6a89930/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_2c4d1a8c3b8f11bc41a736cdf693fd45eb9e184a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.uphyca/stetho_realm/0.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="96400495f53a1596a8d683093c4949c729f49129">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.uphyca-stetho_realm-0.8.0_423a1805ea5d6a11d558e99a0477dc305991d216/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-token-generator/2.0.0/b92e8e8847fd45a50af98e4bf0e1a94f4f17d7cb/firebase-token-generator-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b92e8e8847fd45a50af98e4bf0e1a94f4f17d7cb">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-token-generator-2.0.0_e6e8e0311a32675ba8cc3fa4193a7276f1d636fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_050f04a639ff3fcac200795ab0bb9d9f26a8077b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_9c9c3a32ab6bd3ea8bc3b6137cae19be4f0f2bcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_96ac02aae53148eb6906c316f6070ba01d41e6e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_ba7c4a17870a3ec1759be39d515449d2d135612b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_29ee3b655ef870dec9f657a728bfcff9bd80d75b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4f1766ce7404a08f45d859fb9c226fc9e41a861">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/junit-4.10_fcc76468f928b82ae00309cbd06c59270ec6d924/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.7/9cd61d269c88f9fb0eb36cea1efcd596ab74772f/commons-codec-1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9cd61d269c88f9fb0eb36cea1efcd596ab74772f">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-codec-1.7_2e667ef168e28fc1608af7fd53577e08cdc74b41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_529c5621ac25e8025f67691fe0c3a00595ca82db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_953e5a990a56162c45ed360896a057e2e9b7b422/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_19562475bdab4debd8a5e428bd07383cb5d5104e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_5d1f71e043f2f201e2d170557f76ab13cf9f5b07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.0/7d0473896b3b10b23a2f9812fec4316dff8afdd/firebase-client-android-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="07d0473896b3b10b23a2f9812fec4316dff8afdd">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.0_cb60666d6c387260b7edb6ede1ab1e6c022dc76d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.8/329e8b0c76b3265cea48e746ac794eaee6828b7b/itextpdf-5.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="329e8b0c76b3265cea48e746ac794eaee6828b7b">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/itextpdf-5.5.8_e0597fd1eabef6b4a3a25fc6bd907e56a861b944/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.itextpdf/itext-pdfa/5.5.8/714c04d62c114b989aec4f4fe3cc210ab7138c2e/itext-pdfa-5.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="714c04d62c114b989aec4f4fe3cc210ab7138c2e">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/itext-pdfa-5.5.8_163bf24e888f4b27b8bea2005eaa9c657779da8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_30d437d7091d62c55fcbed6d88cd6673df96dea1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-cli-1.2_6a38e2fa9678a07a3fdb4562760f843cc2275bc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a001396d4e38a1f33ab1a78feaf8b189daea3fd0">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a3b89c211a2ef566e8356cebc23c7c8d456b4d9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_c85796d5dd43c6796fd511fd7c769bf044407fcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_65c5d9def495829f82290ac6cc16c792ad78f073/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/jjupin/Development/Projects/Work/Android/privee/youthdraft/youthdraft_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_e542144d1cf931d7bc5f10e3c27c093a33acee9a/classes.dex" />
+    </item>
+
+</items>

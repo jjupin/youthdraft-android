@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/inner_margin"
+        android:layout_marginLeft="@dimen/inner_margin"
+        android:layout_marginRight="@dimen/inner_margin"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:focusable="true">
+
+            <LinearLayout
+                android:id="@+id/avatar_layout"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <com.youthdraft.youthdraftcoach.views.ConnectionsImageView
+                    android:id="@+id/avatarview"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="League Age: 10"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="12sp" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Draftable"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    app:typeface="openSansSemiBold"
+                    android:visibility="invisible"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/avatar_layout"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:maxWidth="200dp"
+                    android:text="Harrison Tang"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="20sp"
+                    app:typeface="openSansSemiBold" />
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="110dp">
+
+                    <Button
+                        android:id="@+id/perform_assess_btn"
+                        android:layout_width="125dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="Perform \n Assessment"
+                        android:visibility="visible" />
+
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/chart1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="visible"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="78"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="24sp"
+                    app:typeface="openSansSemiBold" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/score_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:lines="2"
+                    android:text="Composite \n Score"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp"
+                    app:typeface="openSansSemiBold" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/composite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:text="78"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="14sp"
+                    app:typeface="openSansSemiBold" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/composite_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:lines="2"
+                    android:text="Composite \n Score"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp"
+                    app:typeface="openSansSemiBold" />
+
+                <Button
+                    android:id="@+id/reschedule_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/blue"
+                    android:text="@string/reschedule"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!--
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                app:typeface="openSansRegular"
+                android:id="@+id/moreCount"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="4"
+                android:visibility="gone"/>
+            -->
+
+            <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/graph_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lighter_gray" />
+
+        <View
+            android:id="@+id/graph_divider2"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/pale_gray" />
+    </LinearLayout>
+    -->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

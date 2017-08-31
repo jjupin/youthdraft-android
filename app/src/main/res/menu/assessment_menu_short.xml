@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/player_hitting_mechanics"
+        android:title="Hitting Mechanics" />
+    <!--
+    <item
+        android:id="@+id/player_bat_speed"
+        android:title="Bat Speed" />
+        -->
+    <item
+        android:id="@+id/player_infield_mechanics"
+        android:title="Infield Mechanics" />
+    <item
+        android:id="@+id/player_outfield_mechanics"
+        android:title="Outfield Mechanics" />
+    <!--
+    <item
+        android:id="@+id/player_throwing_mechanics"
+        android:title="Throwing Mechanics" />
+    <item
+        android:id="@+id/player_fielding"
+        android:title="Fielding" />
+    <item
+        android:id="@+id/player_speed"
+        android:title="Speed" />
+        -->
+    <item
+        android:id="@+id/player_base_running"
+        android:title="Base Running" />
+    <item
+        android:id="@+id/player_custom"
+        android:title="Custom">
+        <menu>
+            <item
+                android:id="@+id/custom_01"
+                android:title="Cusotm 1" />
+            <item
+                android:id="@+id/custom_02"
+                android:title="Custom 2" />
+            <item
+                android:id="@+id/custom_03"
+                android:title="Custom 3" />
+            <item
+                android:id="@+id/custom_04"
+                android:title="Custom 4" />
+            <item
+                android:id="@+id/custom_05"
+                android:title="Custom 5" />
+        </menu>
+    </item>
+</menu>

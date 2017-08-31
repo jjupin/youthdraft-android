@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/player_alphabetical_first"
+        android:title="Alphabetical (First)" />
+    <item
+        android:id="@+id/player_alphabetical_last"
+        android:title="Alphabetical (Last)" />
+    <item
+        android:id="@+id/player_bib_ascend"
+        android:title="BIB Number (Ascending)" />
+    <item
+        android:id="@+id/player_bib_descend"
+        android:title="BIB Number (Descending)" />
+    <item
+        android:id="@+id/player_ranking"
+        android:title="Composite Score"/>
+
+    <item android:title="Assessment">
+        <menu>
+     <item
+        android:id="@+id/player_hitting_mechanics"
+        android:title="Hitting Mechanics" />
+    <item
+        android:id="@+id/player_bat_speed"
+        android:title="Bat Speed" />
+    <item
+        android:id="@+id/player_infield_mechanics"
+        android:title="Infield Mechanics" />
+    <item
+        android:id="@+id/player_outfield_mechanics"
+        android:title="Outfield Mechanics" />
+    <item
+        android:id="@+id/player_throwing_mechanics"
+        android:title="Throwing Mechanics" />
+    <item
+        android:id="@+id/player_fielding"
+        android:title="Fielding" />
+    <item
+        android:id="@+id/player_speed"
+        android:title="Speed" />
+    <item
+        android:id="@+id/player_base_running"
+        android:title="Base Running" />
+            </menu>
+    </item>
+</menu>

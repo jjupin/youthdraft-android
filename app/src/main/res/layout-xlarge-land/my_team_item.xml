@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/inner_margin"
+        android:layout_marginLeft="@dimen/inner_margin"
+        android:layout_marginRight="@dimen/inner_margin"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:focusable="true">
+
+            <LinearLayout
+                android:id="@+id/avatar_layout"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <com.youthdraft.youthdraftcoach.views.ConnectionsImageView
+                    android:id="@+id/avatarview"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@color/pale_gray" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/league_age_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="League Age: 10"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="12sp"
+                    app:typeface="openSansSemiBold" />
+
+                <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Draftable"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:typeface="openSansSemiBold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/toggle_pitcher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignBaseline="@id/toggle_pitcher"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="6dp"
+                        android:text="Pitcher"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        android:visibility="visible"
+                        app:typeface="openSansRegular" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/toggle_catcher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/text2"
+                        android:layout_alignParentRight="true" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignBaseline="@id/toggle_pitcher"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="6dp"
+                        android:text="Catcher"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        android:visibility="visible"
+                        app:typeface="openSansRegular" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/toggle_coaches_kid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/text2"
+                        android:layout_alignParentRight="true" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="6dp"
+                        android:text="Coach's Kid"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        android:visibility="visible"
+                        app:typeface="openSansRegular" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barchart_and_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/avatar_layout"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp">
+
+                        <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                            android:id="@+id/bib_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="160"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:typeface="openSansSemiBold" />
+
+                        <EditText
+                            android:id="@+id/bib_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:maxWidth="200dp">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:text="Harrison Tang"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="20sp"
+                        app:typeface="openSansSemiBold" />
+                        <EditText
+                            android:id="@+id/name_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:maxWidth="200dp"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:hint="John Bull"
+                            android:inputType="textCapWords"
+                            android:imeOptions="actionDone"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <Button
+                        android:id="@+id/assessment_completed_button"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/blue"
+                        android:text="Assessment Completed"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lighter_gray">
+
+                <LinearLayout
+                    android:id="@+id/upper_scores_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/score"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="78"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="24sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/score_title"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:lines="2"
+                        android:text="Composite \n Score"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="10sp"
+                        app:typeface="openSansSemiBold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/middle_scores_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/upper_scores_layout"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/score2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="78"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="24sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/score_title2"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:lines="2"
+                        android:text="Composite \n Score"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="10sp"
+                        app:typeface="openSansSemiBold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/calendar_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_below="@id/middle_scores_layout"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/pale_orange"
+                    android:orientation="vertical">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/schedule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/pale_green"
+                        android:text="Scheduled"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="14sp"
+                        app:typeface="openSansRegular" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/month_title"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="1dp"
+                        android:background="@color/pale_orange"
+                        android:text="JAN"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="14sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/day_title"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/pale_orange"
+                        android:text="23"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="14sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/time_title"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/pale_orange"
+                        android:text="1:00 PM"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        app:typeface="openSansSemiBold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/stats"
+                android:layout_toRightOf="@id/barchart_and_name"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rlpa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp">
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/tvPlayerActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="Bat Speed"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold" />
+
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/tvPlayerActivityVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/tvPlayerActivity"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/seekbar_and_notes_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlpa"
+                    android:orientation="vertical">
+
+                    <SeekBar
+                        android:id="@+id/sPlayerActivity"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="top"
+                        android:max="10"
+                        android:paddingTop="10dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/tick_marks_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvLabel1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvLabel2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="5" />
+
+                        <TextView
+                            android:id="@+id/tvLabel3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingRight="10dp"
+                            android:text="10" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tick_marks_layout"
+                        android:layout_marginTop="15dp">
+
+                        <Button
+                            android:id="@+id/notes_button"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:background="@color/blue"
+                            android:text="Add Note for \n Hitting Mechanics"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/seekbar_and_notes_layout">
+
+                    <Button
+                        android:id="@+id/reschedule_button"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/blue"
+                        android:text="@string/reschedule"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

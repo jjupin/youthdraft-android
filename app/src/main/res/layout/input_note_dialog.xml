@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Note for Bat Speed"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        app:typeface="openSansSemiBold" />
+
+    <EditText
+        android:id="@+id/note_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Enter data..."
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="10"
+        android:minLines="3"
+        android:scrollbars="vertical" />
+</LinearLayout>

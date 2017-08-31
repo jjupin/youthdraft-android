@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+        android:id="@+id/player_title"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:text="New Player"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="24sp"
+        app:typeface="openSansSemiBold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="First Name"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:hint="First"
+                android:paddingLeft="2dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvMiddleInitial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Middle Initial"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <EditText
+                android:id="@+id/editMiddleInitial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:hint="X"
+                android:paddingLeft="2dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Last Name"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <EditText
+                android:id="@+id/editLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:hint="Last"
+                android:paddingLeft="2dp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvLeagueAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="League Age"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <EditText
+                android:id="@+id/editLeagueAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:hint="10"
+                android:inputType="number"
+                android:paddingLeft="2dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvBIBName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="BIB Number"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <EditText
+                android:id="@+id/editBIB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:hint="151"
+                android:inputType="number"
+                android:paddingLeft="2dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvLeagueIdName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:paddingRight="10dp"
+                android:text="League ID"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+
+            <EditText
+                android:id="@+id/editLeagueId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:imeOptions="actionDone"
+                android:hint="TVLLDoe3"
+                android:paddingLeft="2dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvScheduleTimeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:paddingRight="10dp"
+                android:text="Scheduled Date / Time"
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvScheduleTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select \n Time slot"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold"
+                android:paddingLeft="2dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:id="@+id/tvBogus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:typeface="openSansSemiBold" />
+
+            <Button
+                android:id="@+id/changeScheduleDate"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:background="@color/blue"
+                android:text="  Change Date/Time  "
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp">
+
+        <Button
+            android:id="@+id/savePlayerButton"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:background="@color/blue"
+            android:text="Save"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pale_gray"
+        android:visibility="gone">
+
+        <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+            android:id="@+id/schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:text="Select Schedule Time"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="18sp"
+            app:typeface="openSansSemiBold" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/schedule_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/schedule_title"
+            android:background="@android:color/white"
+            android:visibility="visible">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/lighter_gray">
+
+                <LinearLayout
+                    android:id="@+id/timeslotLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:id="@+id/all_players"
+                        android:layout_width="80dp"
+                        android:layout_height="68dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/pale_green"
+                        android:text="\nALL \n PLAYERS"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12sp"
+                        app:typeface="openSansSemiBold" />
+                        -->
+                </LinearLayout>
+            </HorizontalScrollView>
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+            android:id="@+id/cancel_selection"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/schedule_scroller"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            app:typeface="openSansSemiBold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/cancel_selection"
+            android:background="@color/lighter_gray" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_players"
+            android:title="@string/players" />
+        <item
+            android:id="@+id/nav_drafted"
+            android:title="@string/drafted" />
+
+        <!--
+        <item
+            android:id="@+id/nav_ranking"
+            android:title="@string/ranking" />
+            -->
+        <item
+            android:id="@+id/nav_assessed_players"
+            android:title="@string/bullpen_assessed" />
+        <item
+            android:id="@+id/nav_nonscheduled"
+            android:title="@string/dugout_reschedule" />
+
+        <!--
+        <item
+            android:id="@+id/nav_camera"
+            android:title="@string/assess_player" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/assess_activity" />
+        <item
+            android:id="@+id/nav_weight"
+            android:title="@string/weighting" />
+        -->
+
+    </group>
+
+    <item android:title="Coach's Den">
+        <menu>
+            <item
+                android:id="@+id/nav_my_team"
+                android:title="@string/my_team" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Log Out" />
+            <!--
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_manage"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Management" />
+                -->
+        </menu>
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_new_player"
+                android:title="Add Player" />
+
+            <!--
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_manage"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Management" />
+                -->
+        </menu>
+    </item>
+
+</menu>

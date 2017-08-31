@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="@dimen/inner_margin"
+        android:layout_marginBottom="@dimen/inner_margin"
+        android:layout_marginRight="@dimen/inner_margin"
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/tLayout">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tRow1a">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rankDis"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+                    android:id="@+id/tvRankDis" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+                    android:id="@+id/tvRankNum" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rankDraft"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+
+                    android:id="@+id/tvDraftDis" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+                    android:id="@+id/tvDraftVal" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tRow1b">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:textColor="#000000"
+                    android:id="@+id/tvFirst" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:textColor="#000000"
+                    android:id="@+id/tvLast" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tRow2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/composite"
+                    android:textColor="#000000"
+                    android:id="@+id/tvComDis" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:id="@+id/tvComNum" />
+            </TableRow>
+
+        </TableLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

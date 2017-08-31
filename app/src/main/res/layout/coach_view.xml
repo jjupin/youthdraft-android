@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:id="@+id/playerassess"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Player:  "/>
+
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/sPlayerName"
+                android:text="Mike Trout"
+                android:textColor="@color/dark_gray"
+                android:textSize="18sp"
+                app:typeface="openSansSemiBold"
+                />
+
+            <!--
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="#:"
+                android:id="@+id/tvIDtag" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="14"
+                android:id="@+id/tvID" />
+                -->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Date/Time:  "/>
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sTimeSlot"
+                android:text="1/09/2016 9:00 AM"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                app:typeface="openSansSemiBold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            >
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="League Age:  "/>
+            <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tvBirthday"
+                android:text="10"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                app:typeface="openSansSemiBold"
+                />
+            </LinearLayout>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:fillViewport="true"
+            android:id="@+id/playscroll"
+            android:layout_height="wrap_content">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl2"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvHei"
+                        android:text="Height"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvHeightVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvHei"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvHeightVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/sHeight"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <!--
+                <com.appyvet.rangebar.RangeBar
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="72dp"
+                    android:id="@+id/sHeight"
+                    custom:tickStart="1"
+                    custom:tickInterval="1"
+                    custom:tickEnd="1"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+                    -->
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl3"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:id="@+id/tvWei"
+                        android:text="Weight"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvWeightVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvWei"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvWeightVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sWeight"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl1"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hitting Mechanics"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvHittingMechanics"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/tvHitMecVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvHittingMechanics"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvHitMecVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sHitMech"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl4"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvBatSpeed"
+                        android:text="Bat Speed"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvBatSpeedVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvBatSpeed"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvBatSpeedVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sBatSpeed"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl5"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvInfield"
+                        android:text="Infield Mechanics"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvInfieldVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvInfield"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvInfieldVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sInfield"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl6"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvOutfield"
+                        android:text="Outfield Mechanics"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvOutfieldVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvOutfield"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvOutfieldVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sOutfield"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl7"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvThrowing"
+                        android:text="Throwing Mechanics"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvThrowingVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvThrowing"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvThrowingVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sThrowing"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl8"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvArm"
+                        android:text="Fielding"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvArmVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvArm"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvArmVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sArm"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl9"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvSpeed"
+                        android:text="Speed"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvSpeedVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvSpeed"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvSpeedVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sSpeed"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:id="@+id/rl10"
+                    android:layout_height="wrap_content">
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/tvBase"
+                        android:text="Base Running"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:id="@+id/tvBaseVal"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvBase"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:typeface="openSansSemiBold"/>
+                    <com.youthdraft.youthdraftcoach.views.OpenSansTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignEnd="@+id/tvBaseVal"
+                        android:text="10"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        app:typeface="openSansSemiBold"/>
+                </RelativeLayout>
+
+                <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sBase"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:max="10"
+                    android:layout_margin="10dp"/>
+
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:text="Not Draftable"
+                    android:id="@+id/cbDraft"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:hint="Player notes"
+                    android:lines="8"
+                    android:minLines="6"
+                    android:gravity="top|left"
+                    android:maxLines="10"
+                    android:ems="10"
+                    android:id="@+id/etNote" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:id="@+id/bSavePlayer"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

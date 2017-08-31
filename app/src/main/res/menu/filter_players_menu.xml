@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="@string/search_hint"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always|collapseActionView"
+        android:icon="@android:drawable/ic_menu_search"/>
+    <item android:id="@+id/calendar"
+        appcompat:showAsAction="always|collapseActionView"
+        android:icon="@android:drawable/ic_menu_my_calendar" />
+
+    <!--
+    <item
+        android:id="@+id/player_alphabetical_first"
+        android:title="Alphabetical (First)" />
+    <item
+        android:id="@+id/player_alphabetical_last"
+        android:title="Alphabetical (Last)" />
+    <item
+        android:id="@+id/player_ranking"
+        android:title="Ranking"/>
+
+    <item android:title="Assessment">
+        <menu>
+    <item
+        android:id="@+id/player_height"
+        android:title="Height" />
+    <item
+        android:id="@+id/player_weight"
+        android:title="Weight" />
+    <item
+        android:id="@+id/player_hitting_mechanics"
+        android:title="Hitting Mechanics" />
+    <item
+        android:id="@+id/player_bat_speed"
+        android:title="Bat Speed" />
+    <item
+        android:id="@+id/player_infield_mechanics"
+        android:title="Infield Mechanics" />
+    <item
+        android:id="@+id/player_outfield_mechanics"
+        android:title="Outfield Mechanics" />
+    <item
+        android:id="@+id/player_throwing_mechanics"
+        android:title="Throwing Mechanics" />
+    <item
+        android:id="@+id/player_fielding"
+        android:title="Fielding" />
+    <item
+        android:id="@+id/player_speed"
+        android:title="Speed" />
+    <item
+        android:id="@+id/player_base_running"
+        android:title="Base Running" />
+            </menu>
+    </item>
+    <item
+        android:id="@+id/player_advanced"
+        android:title="Advanced" />
+        -->
+</menu>

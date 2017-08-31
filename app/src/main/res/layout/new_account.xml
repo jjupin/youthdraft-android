@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_status"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_input_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/etEmail"
+                    android:hint="Email address"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_input_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/etPassword"
+                    android:hint="Password"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/token_input_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Token"
+                    android:id="@+id/etToken"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/league_input_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="League ID"
+                    android:id="@+id/etLeague"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose sport:"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/textView" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/sSport" >
+
+            </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose season:"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/tvSeason" />
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/sSeason" >
+
+            </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose year:"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/tvYear" />
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/sYear" >
+
+            </Spinner>
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Continue"
+                android:id="@+id/bContinue" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

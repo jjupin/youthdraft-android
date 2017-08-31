@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="typeface" format="enum">
+        <enum name="openSansRegular" value="0"/>
+        <enum name="openSansSemiBold" value="1"/>
+        <enum name="openSansBold" value="2"/>
+    </attr>
+
+    <declare-styleable name="OpenSansTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="AvatarImageBehavior">-->
+    <!--<attr name="finalYPosition" format="dimension"/>-->
+    <!--<attr name="startXPosition" format="dimension"/>-->
+    <!--<attr name="startToolbarPosition" format="dimension"/>-->
+    <!--<attr name="startHeight" format="dimension"/>-->
+    <!--<attr name="finalHeight" format="dimension"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="ConnectionImageBehavior">
+        <attr name="finalYPosition" format="dimension"/>
+        <attr name="startXPosition" format="dimension"/>
+        <attr name="startToolbarPosition" format="dimension"/>
+        <attr name="startHeight" format="dimension"/>
+        <attr name="startWidth" format="dimension"/>
+        <attr name="finalHeight" format="dimension"/>
+        <attr name="finalWidth" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="primaryTextSelector" format="reference" />
+
+    <declare-styleable name="ProgressBar">
+        <attr name="barColor" format="color" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="detentWidth" format="dimension" />
+        <attr name="useShadow" format="boolean" />
+    </declare-styleable>
+</resources>
